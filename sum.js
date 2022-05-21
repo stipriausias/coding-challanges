@@ -3,5 +3,5 @@ function SeriesSum(n) {
     s += 1 / (1 + i * 3)
   }
 
-  return s.toFixed(2).......................
+  return s.toFixed(2)........................
 }
