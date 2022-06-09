@@ -1,0 +1,5 @@
+function stantonMeasure(arr){
+  let count = arr.reduce((sum, element) => element === 1 ? sum + 1: sum, 0);
+  let statonCount = arr.reduce((sum, element) => element === count ? sum + 1: sum, 0) 
+  return statonCount;
+}
