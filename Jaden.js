@@ -4,5 +4,5 @@ String.prototype.toJadenCase = function () {
     split(' ').
     map((element, index) => element[0].toUpperCase() + element.slice(1)).
     join(' ');
-    // good so
+    // good sol
   };
