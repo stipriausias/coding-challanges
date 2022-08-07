@@ -1,5 +1,4 @@
-function spam(number) {
-    //TODO: Not returning the expected value.....
-    let answer = 'hue'
-    return answer.repeat(number)
-}
+
+let words = ['yoda', 'best', 'has']
+
+console.log(words.map((element, index) => element.split('')[index]).join(''))
