@@ -4,5 +4,5 @@ function switcheroo(x){
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
     }).join('');
-    // new solutionssss
+    // new solutionsssss
   }
