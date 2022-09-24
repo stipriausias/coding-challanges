@@ -9,5 +9,5 @@ function alternate(n, firstValue, secondValue){
       }
     }
     return lapas;
-    // good solution
+    // good solutions
   }
