@@ -1,5 +1,9 @@
-function getFirstPython(list) {
-  const dev = list.find(x => x.language === "Python")
-  return dev ? `${dev.firstName}, ${dev.country}` : "There will be no Python developers."
-  // nice
+const param = 10;
+
+const inner = (arg) => arg * 5;
+
+function outer(inner, param) {
+  return inner(param);
 }
+
+console.log(outer((_val) => param +5, 5));
