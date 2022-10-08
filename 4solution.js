@@ -7,3 +7,4 @@ function outer(inner, param) {
 }
 
 console.log(outer((_val) => param +5, 5));
+// good
